@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 40%;
+}
+.main{
+    max-width: 500px;
+    box-shadow: 2px 3px 4px grey;
+    margin-bottom: 5%;
+    padding-bottom:3% ;
+    margin-left: -40%;
+    margin-top: 100px;
+}
+label{
+    color: green;
+    font-size:15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    margin-left:4%;
+}
+input[type="text"],[type="number"],[type="email"],[type="password"]
+{
+    width:90%;
+    padding:1%;
+    box-shadow: 1px 2px 3px grey;
+    border-radius: 5px;
+    border:one;
+    margin-left:4%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+input[type="checkbox"]{
+    accent-color: green;
+
+}
+.check{
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+    font-size: 20px;
+}
+button{
+    border:none;
+    margin-left: 9%;
+    width: 80%;
+    color:white;
+    text-align:center;
+    font-size: 15px;
+    background-color: green;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px grey;
+    padding:1%;
+}
+button:hover{
+    background-color: greenyellow;
+    transform: scale(1,1);
+}
+h3{
+    color:blue;
+}
